@@ -8,7 +8,7 @@ Sistem keamanan mandiri berbasis webcam laptop. Saat mendeteksi **manusia**, sis
 ## 1. Panduan Instalasi
 
 ### a. Prasyarat
-- Python 3.9 – 3.12 (kamu memakai 3.12 ✔)
+- Python 3.9 – 3.12
 - Webcam bawaan laptop yang berfungsi
 
 ### b. (Disarankan) Buat virtual environment
@@ -36,7 +36,7 @@ Jika file tidak ada, sistem tetap jalan memakai **beep darurat** dari terminal.
 ## 2. Cara Menjalankan
 
 ```powershell
-python dorm_guard.py
+python jambi.py
 ```
 
 - Jendela pratinjau akan muncul dengan status **AMAN** (hijau) / **BAHAYA** (merah).
